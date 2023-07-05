@@ -1,0 +1,63 @@
+html, body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction:column; 
+    flex:1;
+}
+
+.container .header{
+    display:flex;
+    background-color: #1F2937;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.header .top-line, .header .bottom-line{
+    display:flex;
+    justify-content: space-between;
+    margin:12px 72px;
+}
+
+.header .top-line h2{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+
+ul{
+    margin-left:0;
+    padding-left:0;
+    list-style-type: none;
+    display:flex;
+    gap:12px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.container .header .top-line a, .container .header .bottom-line .subtext{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.signup{
+    font-size:12px;
+    color:#E5E7EB;
+    background-color: cornflowerblue;
+    padding:8px 16px;
+    border:none;
+    border-radius:10px;
+    margin-top:20px;
+ 
+}
+
+.container .bottom-line h2{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+}
