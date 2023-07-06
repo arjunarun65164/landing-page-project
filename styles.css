@@ -15,6 +15,7 @@ body {
     justify-content: center;
     flex-direction: column;
     gap: 48px;
+    padding-top:24px;
     padding-bottom: 48px;
 }
 
@@ -48,13 +49,16 @@ a {
 
 a,
 .header .bottom-line .subtext {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
 }
 
 img {
     width: 600px;
-    height: 350px;
+    height: 250px;
+    object-fit: cover;
+    border:1px #F9FAF8 solid;
+    border-radius: 5px;
 }
 
 .left-column,
@@ -64,13 +68,14 @@ img {
 }
 
 .signup {
-    font-size: 12px;
-    color: #E5E7EB;
+    font-size: 18px;
+    color: #F9FAF8;
     background-color: #3882F6;
-    padding: 8px 16px;
+    padding: 12px 32px;
     border: none;
     border-radius: 10px;
     margin-top: 20px;
+    font-weight: bold;
 
 }
 
@@ -85,14 +90,15 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:36px;
+    padding:48px;
+    padding-bottom: 72px;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    margin: 12px auto;
+    margin: 24px auto;
 }
 
 .boxes-container {
@@ -139,13 +145,14 @@ img {
     margin: 24px;
     font-size:16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     max-width: 700px;
     text-align: right;
 }
 
 .call{
     font-weight:bold;
+    font-size: 24px;
 }
 
 .text{
@@ -165,7 +172,7 @@ img {
     background-color: #3882F6;
     border-radius:5px;
     margin:72px 150px;
-    padding:24px 48px;
+    padding:48px 120px;
     flex-direction: row;
     gap:96px;
     align-items: center;
@@ -183,4 +190,14 @@ img {
     border:2px white solid;
     flex-shrink: 0;
     padding:8px 24px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding:48px;
+    font-size:18px;
 }
